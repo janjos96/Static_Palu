@@ -3,7 +3,7 @@ print '<nav>
 
 
 <div class="logo">
-  <a href="index.php"><img src="images/logo.svg" /></a>
+  <a href="index.php"><img src="media/images/logo.svg" /></a>
 </div>
 <div class="menu">
   <ul>
@@ -18,7 +18,7 @@ print '<nav>
 <div class="search">
   <ul>
     <li><input type="text" ></li>
-    <li><img src="images/search-solid.svg" /></li>
+    <li><img src="media/images/search-solid.svg" /></li>
   </ul>
 </div>
 </nav>';
