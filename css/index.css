@@ -8,8 +8,6 @@ display: grid;
 grid-template-columns: auto 70% 5px;
 grid-template-rows: 20vh auto 1fr;
 
-
-
 /*background-image: url(../images/mainimage.png);*/
 }
 
@@ -148,7 +146,6 @@ grid-template-columns: auto auto;
 grid-row-gap: 80px;
 grid-column-start: 2;
 grid-row-start: 3;
-
 
 }
 
