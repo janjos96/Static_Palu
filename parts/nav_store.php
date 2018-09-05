@@ -5,6 +5,7 @@ print '<nav>
 <div class="logo">
   <a href="index.php"><img src="media/images/logo.svg" /></a>
 </div>
+
 <div class="menu">
   <ul>
     <li><a href="store.php">STORE</a>
