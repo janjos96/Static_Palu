@@ -19,6 +19,12 @@ nav{
 }
 
 
+/*hamburguer nav*/
+
+#hamburguer{
+  width: 20%;
+  display: none;
+}
 
 
 .logo{

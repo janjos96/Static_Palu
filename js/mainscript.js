@@ -1,5 +1,25 @@
 $(document).ready(function () {
 
+/*HAMBURGUER*/
+
+var count = 0;
+ $("#hamburguer").click(function () {
+     if (count % 2 === 0) {
+
+       $(".menu").animate({
+         opacity: 1,
+         left: '5vh'
+         });
+
+     } else {
+
+       $(".menu").animate({
+         opacity: 0,
+         left: '-5vh'
+         });
+         }
+         count++;
+ });
 
 /*PALUPELOMUNDO*/
 

@@ -2,9 +2,19 @@
 
 
   .logo{
-  width: 60vw;
+  width: 30vw;
+  position: fixed;
+  top: 5vh;
+  left: 35vw;
+  right: 35vw;
+  }
 
-
+  #hamburguer{
+    display: block;
+    position: fixed;
+    top: 5vh;
+    left: 5vh;
+    width: 10vw;
   }
 
 .search{
@@ -13,13 +23,10 @@
   left: 5vw;
 }
 
-  .conditions{
+.conditions{
    position: fixed;
    bottom: 5vh;
    left: 5vw;
-
-
-
   }
 
   input[type=text] {
@@ -32,8 +39,10 @@
     font-size: 7vw;
   }
 
-
-}
+  .menu{
+    opacity: 0;
+    left:-5vh;
+  }
 
 
 
