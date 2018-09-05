@@ -1,5 +1,8 @@
 @media only screen and (max-width: 500px) {
 
+nav{
+  z-index: 20;
+}
 
   .logo{
   width: 30vw;
