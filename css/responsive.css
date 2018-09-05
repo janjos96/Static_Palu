@@ -68,8 +68,8 @@
 
   .articleimage{
   width: 75vw;
-  margin-left: 7%;
-  margin-right: 10%;
+  margin-left: 0%;
+  margin-right: 0%;
   }
 
 
@@ -78,7 +78,8 @@
   }
 
   .price{
-  font-size: 7vw;
+    font-size: 6vw;
+      padding-left: 70vw;
   }
 
 }
