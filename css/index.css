@@ -19,8 +19,6 @@ nav{
 }
 
 
-
-
 .logo{
 width: 15vw;
 position: fixed;
@@ -173,6 +171,26 @@ transform: rotate(90deg);
 }
 
 .price{
+font-family: 'Roboto', sans-serif;
+font-size: 3vw;
+font-weight: bold;
+padding-left: 75%;
+margin-top: -10%;
+
+
+}
+
+.title1{
+font-family: 'Roboto', sans-serif;
+font-size: 1.5vw;
+font-weight: bold;
+margin-right: 50%;
+margin-left: -35%;
+margin-top: 95%;
+transform: rotate(90deg);
+}
+
+.price1{
 font-family: 'Roboto', sans-serif;
 font-size: 3vw;
 font-weight: bold;

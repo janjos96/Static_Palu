@@ -12,83 +12,83 @@
 
 <div class="gridcontainer">
 
-<div class="img" data-aos="fade-up"  data-aos-once="true" data-aos-duration="1500"><a href="store_individual.php">
-  <div data-relative-input="true" data-hover-only="true" class="scene">
-<div data-depth="0.2">
-
-  <img class="articleimage" src="media/images/artigo.png"/>
-
-<p class="title">T-Shirt #1 PALU</p>
-<p class="price">19.99€</p>
-
-</div>
-</div>
-</a>
-</div>
-
-
-
-
-<div class="img" data-aos="fade-up"  data-aos-once="true" data-aos-duration="1500"><a href="www.google.pt">
+<div class="img" data-aos="fade-up"  data-aos-once="true" data-aos-duration="1500">
+  <a href="store_individual.php">
     <div data-relative-input="true" data-hover-only="true" class="scene">
-<div data-depth="0.2">
-
-  <img class="articleimage" src="media/images/artigo.png"/>
-
-<p class="title">T-Shirt #1 PALU</p>
-<p class="price">19.99€</p>
-
+      <div data-depth="0.15">
+        <img class="articleimage" src="media/images/artigo.png"/>
+      </div>
+      <div>
+        <p class="title1">T-Shirt #1 PALU</p>
+        <p class="price1">19.99€</p>
+      </div>
+    </div>
+  </a>
 </div>
-</div>
-</a>
-</div>
 
 
 
-<div class="img" data-aos="fade-up"  data-aos-once="true" data-aos-duration="1500"><a href="www.google.pt">
+
+<div class="img" data-aos="fade-up"  data-aos-once="true" data-aos-duration="1500">
+  <a href="store_individual.php">
     <div data-relative-input="true" data-hover-only="true" class="scene">
-<div data-depth="0.2">
-
-  <img class="articleimage" src="media/images/artigo.png"/>
-
-<p class="title">T-Shirt #1 PALU</p>
-<p class="price">19.99€</p>
-
+      <div data-depth="0.15">
+        <img class="articleimage" src="media/images/artigo.png"/>
+      </div>
+      <div>
+        <p class="title1">T-Shirt #1 PALU</p>
+        <p class="price1">19.99€</p>
+      </div>
+    </div>
+  </a>
 </div>
-</div>
-</a>
-</div>
 
 
 
-<div class="img" data-aos="fade-up"  data-aos-once="true" data-aos-duration="1500"><a href="www.google.pt">
+<div class="img" data-aos="fade-up"  data-aos-once="true" data-aos-duration="1500">
+  <a href="store_individual.php">
     <div data-relative-input="true" data-hover-only="true" class="scene">
-<div data-depth="0.2">
-
-  <img class="articleimage" src="media/images/artigo.png"/>
-
-<p class="title">T-Shirt #1 PALU</p>
-<p class="price">19.99€</p>
-
+      <div data-depth="0.15">
+        <img class="articleimage" src="media/images/artigo.png"/>
+      </div>
+      <div>
+        <p class="title1">T-Shirt #1 PALU</p>
+        <p class="price1">19.99€</p>
+      </div>
+    </div>
+  </a>
 </div>
-</div>
-</a>
-</div>
 
 
 
-<div class="img " data-aos="fade-up" data-aos-duration="1500"  data-aos-once="true"><a href="www.google.pt">
+<div class="img" data-aos="fade-up"  data-aos-once="true" data-aos-duration="1500">
+  <a href="store_individual.php">
     <div data-relative-input="true" data-hover-only="true" class="scene">
-<div data-depth="0.2">
-
-  <img class="articleimage" src="media/images/artigo.png"/>
-
-<p class="title">T-Shirt #1 PALU</p>
-<p class="price">19.99€</p>
-
+      <div data-depth="0.15">
+        <img class="articleimage" src="media/images/artigo.png"/>
+      </div>
+      <div>
+        <p class="title1">T-Shirt #1 PALU</p>
+        <p class="price1">19.99€</p>
+      </div>
+    </div>
+  </a>
 </div>
-</div>
-</a>
+
+
+
+<div class="img" data-aos="fade-up"  data-aos-once="true" data-aos-duration="1500">
+  <a href="store_individual.php">
+    <div data-relative-input="true" data-hover-only="true" class="scene">
+      <div data-depth="0.15">
+        <img class="articleimage" src="media/images/artigo.png"/>
+      </div>
+      <div>
+        <p class="title1">T-Shirt #1 PALU</p>
+        <p class="price1">19.99€</p>
+      </div>
+    </div>
+  </a>
 </div>
 
 
