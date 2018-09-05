@@ -6,4 +6,6 @@ $(document).ready(function () {
 $("body").css("background-image" , rand);
 $("body").css("background-size" , "100vw");
 
+
+
 });

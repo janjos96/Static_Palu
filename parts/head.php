@@ -11,10 +11,13 @@ print '<head>
       <link rel="icon" href="media/images/ico.png" type="image/ico" sizes="16x16">
       <link rel="stylesheet" type="text/css" href="css/index.css">
       <link rel="stylesheet" type="text/css" href="css/responsive.css">
+      <link rel="stylesheet" type="text/css" href="css/aos.css">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
       <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:700|Roboto" rel="stylesheet">
       <!--SCRIPTS-->
       <script src="js/jquery-3.2.1.min.js"></script>
+      <script src="js/mainscript.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
   <!--   <script src="js/backgroundImage.js"></script>-->
 
 </head>';
