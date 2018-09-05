@@ -11,12 +11,24 @@ var count = 0;
          left: '5vh'
          });
 
+         $(".search").animate({
+           opacity: 1,
+           left: '5vh'
+           });
+
      } else {
 
        $(".menu").animate({
          opacity: 0,
          left: '-5vh'
          });
+
+         $(".search").animate({
+           opacity: 0,
+           left: '-5vh'
+           });
+
+
          }
          count++;
  });
