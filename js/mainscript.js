@@ -54,7 +54,7 @@ inverY: al,
 }
 
 //var margin = ["160px", "20px", "80px", "40px" , "-80px", "-40px"];
-var margin = ["20%","40%","60%","0%"];
+/*var margin = ["20%","0%","30%","0%"];
 
 var elements = document.getElementsByClassName("worldphoto");
 var rand;
@@ -71,7 +71,7 @@ for (var i = 1; i < elements.length; i++) {
   $(elements[i]).css("margin-left" , rand);
 }
 
-  }
+}*/
 
 
 
