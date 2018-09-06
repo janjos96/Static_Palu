@@ -7,8 +7,18 @@ print '<head>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!--FAVICON-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/media/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/media/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/media/icons/favicon-16x16.png">
+    <link rel="manifest" href="/media/icons/site.webmanifest">
+    <link rel="mask-icon" href="/media/icons/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="/media/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-config" content="/media/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
       <!--LINKS-->
-      <link rel="icon" href="media/images/ico.png" type="image/ico" sizes="16x16">
       <link rel="stylesheet" type="text/css" href="css/index.css">
       <link rel="stylesheet" type="text/css" href="css/responsive.css">
       <link rel="stylesheet" type="text/css" href="css/aos.css">
