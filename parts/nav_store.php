@@ -7,18 +7,6 @@ print '
 </div>
 
 <div class="menu">
-  <ul>
-    <li><a href="store.php">STORE</a>
-      <ul id="submenu">
-      <li><a>general</a></li>
-      <li><a>t-shirts</a></li>
-      <li><a>sweats</a></li>
-      <li><a>snapbacks</a></li>
-      <li><a>acessories</a></li>
-      </ul>
-
-
-<div class="menu">
   <nav>
     <ul>
       <li><a href="store.php">STORE</a>
