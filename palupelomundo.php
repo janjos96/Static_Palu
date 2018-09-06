@@ -24,7 +24,10 @@
 <div class="row">
   <div class="column">
     <img src="media/images/palupelomundo/1.png" />
-    <h1>Sahara, <br/> África</h1>
+
+      <figcaption>Sahara, <br/> África</figcaption>
+
+
     <img class="worldimage" src="media/images/palupelomundo/3.png" />
 <h1>Marrocos, <br/> África</h1>
 <img class="worldimage" src="media/images/palupelomundo/6.png" />
