@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-/*HAMBURGUER*/
+/*HAMBURGUER responsive menu*/
 
 var count = 0;
  $("#hamburguer").click(function () {
