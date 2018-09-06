@@ -1,10 +1,22 @@
 <?php
 print '
 
-
+<img id="hamburguer" src="media/svgs/hamburger.svg" />
 <div class="logo">
   <a href="index.php"><img src="media/images/logo.svg" /></a>
 </div>
+
+<div class="menu">
+  <ul>
+    <li><a href="store.php">STORE</a>
+      <ul id="submenu">
+      <li><a>general</a></li>
+      <li><a>t-shirts</a></li>
+      <li><a>sweats</a></li>
+      <li><a>snapbacks</a></li>
+      <li><a>acessories</a></li>
+      </ul>
+
 
 <div class="menu">
   <nav>

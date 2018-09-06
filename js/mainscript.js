@@ -1,5 +1,37 @@
 $(document).ready(function () {
 
+/*HAMBURGUER responsive menu*/
+
+var count = 0;
+ $("#hamburguer").click(function () {
+     if (count % 2 === 0) {
+
+       $(".menu").animate({
+         opacity: 1,
+         left: '5vh'
+         });
+
+         $(".search").animate({
+           opacity: 1,
+           left: '5vh'
+           });
+
+     } else {
+
+       $(".menu").animate({
+         opacity: 0,
+         left: '-5vh'
+         });
+
+         $(".search").animate({
+           opacity: 0,
+           left: '-5vh'
+           });
+
+
+         }
+         count++;
+ });
 
 /*PALUPELOMUNDO*/
 
@@ -22,7 +54,7 @@ inverY: al,
 }
 
 //var margin = ["160px", "20px", "80px", "40px" , "-80px", "-40px"];
-var margin = ["20%","40%","60%","0%"];
+/*var margin = ["20%","0%","30%","0%"];
 
 var elements = document.getElementsByClassName("worldphoto");
 var rand;
@@ -39,7 +71,7 @@ for (var i = 1; i < elements.length; i++) {
   $(elements[i]).css("margin-left" , rand);
 }
 
-  }
+}*/
 
 
 

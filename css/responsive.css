@@ -1,23 +1,44 @@
 @media only screen and (max-width: 500px) {
 
+nav{
+  z-index: 20;
+}
+
 
   .logo{
-  width: 60vw;
+  width: 30vw;
+  position: fixed;
+  top: 5vh;
+  left: 35vw;
+  right: 35vw;
+  }
+
+  #hamburguer{
+    display: block;
+    position: fixed;
+    top: 5vh;
+    left: 5vh;
+    width: 10vw;
+
   }
 
 .search{
   position: fixed;
   bottom: 10vh;
-  left: 5vw;
+  opacity: 0;
+  left:-5vh;
+  z-index: 20;
+
 }
 
-  .conditions{
+input{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.conditions{
    position: fixed;
    bottom: 5vh;
    left: 5vw;
-
-
-
   }
 
   input[type=text] {
@@ -30,10 +51,48 @@
     font-size: 7vw;
   }
 
+  .menu{
+    opacity: 0;
+    left:-5vh;
+    z-index: 20;
+  }
 
-}
 
 
+  body{
+  display: grid;
+  grid-template-columns: 15px auto 15px;
+  grid-template-rows: 20vh auto 1fr;
 
+  }
+
+  .gridcontainer{
+  display: grid;
+  grid-template-columns: auto;
+  grid-column-start: 2;
+
+  }
+
+
+  .img{
+    width: 100%;
+    height: 90vw;
+  }
+
+  .articleimage{
+  width: 75vw;
+  margin-left: 7%;
+  margin-right: 10%;
+  }
+
+
+  .title{
+  font-size: 5.1vw;
+  }
+
+  .price{
+    font-size: 6vw;
+      padding-left: 68vw;
+  }
 
 }

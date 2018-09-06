@@ -1,7 +1,7 @@
 <?php
 print '
 
-
+<img id="hamburguer" src="media/svgs/hamburger.svg" />
 <div class="logo">
   <a href="index.php"><img src="media/images/logo.svg" /></a>
 </div>
