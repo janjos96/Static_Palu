@@ -23,10 +23,13 @@ $(document).ready(function () {
 
     } else {
 
+      $(".hamburguer").css("pointer-events","none");
+
       setTimeout(function(){
         $(".menu").css('display', 'none');
         $(".search").css('display', 'none');
         $(".conditions_small").css('display', 'none');
+        $(".hamburguer").css("pointer-events","auto");
       },600);
 
       $(".menu").animate({
