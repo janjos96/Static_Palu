@@ -63,6 +63,13 @@ print '
     <li><img src="media/images/search-solid.svg" /></li>
   </ul>
 </div>
+
+<div class="conditions_small">
+  <ul>
+    <li><a>Terms & Conditions</a></li>
+    <li><a>Privacy Policy</a></li>
+  </ul>
+</div>
 ';
 
 

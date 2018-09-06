@@ -4,6 +4,10 @@
     z-index: 20;
   }
 
+  .topnavbar{
+    position: fixed;
+    background-color: white;
+  }
 
   .logo{
     width: 30vw;
