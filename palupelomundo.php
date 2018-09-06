@@ -23,10 +23,13 @@
 <div class="worldcontainer">
 <div class="row">
   <div class="column">
-    <img src="media/images/palupelomundo/1.png" />
 
-      <figcaption>Sahara, <br/> África</figcaption>
-
+      <div class="container">
+        <img class="image" src="media/images/palupelomundo/1.png" />
+        <div class="middle">
+          <div class="text">Sahara, África</div>
+        </div>
+      </div>
 
     <img class="worldimage" src="media/images/palupelomundo/3.png" />
 <h1>Marrocos, <br/> África</h1>
