@@ -147,11 +147,11 @@ input:focus {
 
 
 .gridcontainer{
-display: grid;
-grid-template-columns: auto auto;
-grid-row-gap: 80px;
-grid-column-start: 3;
-grid-row-start: 2;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-row-gap: 80px;
+  grid-column-start: 3;
+  grid-row-start: 2;
 }
 
 
@@ -166,29 +166,26 @@ grid-row-start: 2;
 
 .img:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      text-decoration: none;
+    text-decoration: none;
 }
 
 .img a {text-decoration: none;}
 
 .title{
-
-font-family: 'Roboto', sans-serif;
-font-size: 1.5vw;
-font-weight: bold;
-margin-right: 50%;
-margin-left: -35%;
-transform: rotate(90deg);
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5vw;
+  font-weight: bold;
+  margin-right: 50%;
+  margin-left: -35%;
+  transform: rotate(90deg);
 }
 
 .price{
-font-family: 'Roboto', sans-serif;
-font-size: 3vw;
-font-weight: bold;
-padding-left: 75%;
-margin-top: -10%;
-
-
+  font-family: 'Roboto', sans-serif;
+  font-size: 3vw;
+  font-weight: bold;
+  padding-left: 75%;
+  margin-top: -10%;
 }
 
 .articleimage{

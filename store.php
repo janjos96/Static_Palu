@@ -19,8 +19,8 @@
         <img class="articleimage" src="media/images/artigo.png"/>
       </div>
       <div>
-        <p class="title1">T-Shirt #1 PALU</p>
-        <p class="price1">19.99€</p>
+        <p class="title">T-Shirt #1 PALU</p>
+        <p class="price">19.99€</p>
       </div>
     </div>
   </a>
