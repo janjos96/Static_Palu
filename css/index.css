@@ -177,6 +177,7 @@ input:focus {
   font-weight: bold;
   margin-right: 50%;
   margin-left: -35%;
+  margin-top: 93%;
   transform: rotate(90deg);
 }
 
@@ -184,7 +185,7 @@ input:focus {
   font-family: 'Roboto', sans-serif;
   font-size: 3vw;
   font-weight: bold;
-  padding-left: 75%;
+  padding-left: 74%;
   margin-top: -10%;
 }
 
