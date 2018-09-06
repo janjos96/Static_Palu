@@ -1,49 +1,71 @@
 @media only screen and (max-width: 500px) {
 
-nav{
-  z-index: 20;
-}
+  nav{
+    z-index: 20;
+  }
 
 
   .logo{
-  width: 30vw;
-  position: fixed;
-  top: 5vh;
-  left: 35vw;
-  right: 35vw;
+    width: 30vw;
+    position: fixed;
+    top: 5vh;
+    left: 35vw;
+    right: 35vw;
   }
 
-  #hamburguer{
+  .hamburguer{
     display: block;
     position: fixed;
     top: 5vh;
     left: 5vh;
     width: 10vw;
+  }
+
+  .bar1, .bar2, .bar3 {
+    transition: 0.4s;
+  }
+
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-28px, 22px);
+  }
+
+  .change .bar2 {opacity: 0;}
+
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(9px,-37px);
+  }
+
+  .search{
+    display: none;
+    position: fixed;
+    bottom: 10vh;
+    opacity: 0;
+    left:-5vh;
+    z-index: 20;
 
   }
 
-.search{
-  position: fixed;
-  bottom: 10vh;
-  opacity: 0;
-  left:-5vh;
-  z-index: 20;
+  input{
+    background-color: rgba(0, 0, 0, 0);
+  }
 
-}
+  .conditions{
+    display: none;
+  }
 
-input{
-  background-color: rgba(0, 0, 0, 0);
-}
-
-.conditions{
-   position: fixed;
-   bottom: 5vh;
-   left: 5vw;
+  .conditions_small{
+    display: none;
+    opacity: 0;
+    position: fixed;
+    bottom: 5vh;
+    left: -5vw;
   }
 
   input[type=text] {
 
-       width: 70vw;
+    width: 70vw;
 
   }
 
@@ -52,6 +74,7 @@ input{
   }
 
   .menu{
+    display: none;
     opacity: 0;
     left:-5vh;
     z-index: 20;
@@ -60,16 +83,16 @@ input{
 
 
   body{
-  display: grid;
-  grid-template-columns: 15px auto 15px;
-  grid-template-rows: 20vh auto 1fr;
+    display: grid;
+    grid-template-columns: 15px auto 15px;
+    grid-template-rows: 20vh auto 1fr;
 
   }
 
   .gridcontainer{
-  display: grid;
-  grid-template-columns: auto;
-  grid-column-start: 2;
+    display: grid;
+    grid-template-columns: auto;
+    grid-column-start: 2;
 
   }
 
@@ -80,19 +103,19 @@ input{
   }
 
   .articleimage{
-  width: 75vw;
-  margin-left: 7%;
-  margin-right: 10%;
+    width: 75vw;
+    margin-left: 7%;
+    margin-right: 10%;
   }
 
 
   .title{
-  font-size: 5.1vw;
+    font-size: 5.1vw;
   }
 
   .price{
     font-size: 6vw;
-      padding-left: 68vw;
+    padding-left: 68vw;
   }
 
 }
