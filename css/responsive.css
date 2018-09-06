@@ -7,6 +7,7 @@
   .topnavbar{
     position: fixed;
     background-color: white;
+    z-index: 1000;
   }
 
   .logo{
