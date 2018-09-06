@@ -1,12 +1,15 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body{
 display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns: 5% 15% 65% 15% 5px;
+grid-template-rows: 25% 70% 5%;
+width: 100vw;
+height: 100vh;
 
 
 
@@ -15,32 +18,34 @@ grid-template-rows: 1fr 1fr 1fr;
 
 nav{
   font-family: 'IBM Plex Mono', monospace;
+  grid-column-start: 2;
+  grid-row-start: 2
+}
 
+
+/*hamburguer nav*/
+
+#hamburguer{
+  width: 20%;
+  display: none;
 }
 
 
 .logo{
-grid-column-start: 1;
-grid-row-start: 1;
-width: 15vw;
-top: 5vh;
-left: 5vh;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  align-self: center;
 }
 
-
-
 .menu{
-  grid-column-start: 1;
+  grid-column-start: 2;
   grid-row-start: 2;
-  top: 23vh;
-  left: 5vh;
-
+  margin-top: 15%;
 }
 
 .search{
-  bottom: 5vh;
-  left: 5vh;
-
+  grid-column-start: 2;
+  grid-row-start: 3;
 
 }
 
@@ -48,20 +53,18 @@ left: 5vh;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   color: #787878;
-  position: fixed;
-  top: 5vh;
-  right: 5vh;
-
+  grid-column-start: 4;
+  grid-row-start: 1;
+  align-self: center;
+  justify-self: center;
 }
 
 .conditions{
-
-  position: fixed;
-  bottom: 5vh;
-  right: 5vh;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   color: #787878;
+  grid-column-start: 4;
+  grid-row-start: 3;
 }
 
 /*CSS AJUSTE*/
@@ -138,8 +141,10 @@ input:focus {
 display: grid;
 grid-template-columns: auto auto;
 grid-row-gap: 80px;
-grid-column-start: 2;
-grid-row-start: 3;
+grid-column-start: 3;
+grid-row-start: 2;
+
+
 }
 
 
@@ -169,26 +174,6 @@ transform: rotate(90deg);
 }
 
 .price{
-font-family: 'Roboto', sans-serif;
-font-size: 3vw;
-font-weight: bold;
-padding-left: 75%;
-margin-top: -10%;
-
-
-}
-
-.title1{
-font-family: 'Roboto', sans-serif;
-font-size: 1.5vw;
-font-weight: bold;
-margin-right: 50%;
-margin-left: -35%;
-margin-top: 95%;
-transform: rotate(90deg);
-}
-
-.price1{
 font-family: 'Roboto', sans-serif;
 font-size: 3vw;
 font-weight: bold;
@@ -243,17 +228,8 @@ margin-top: 50px;
 
 /*STORE INDIVIDUAL*/
 
-.gridcontainer_store{
-display: grid;
-grid-template-columns: auto;
-grid-row-gap: 80px;
-grid-column-start: 2;
-grid-row-start: 3;
-}
-
-
 .imgind{
-  /*margin-top: 100px;*/
+  margin-top: 100px;
   width: 30vw;
   height: 30vw;
 
@@ -312,7 +288,7 @@ font-weight: bold;
 cursor: pointer;
 -ms-transform: translate(28vw, -28vw); /* IE 9 */
   -webkit-transform: translate(28vw, -28vw);/* Safari */
-transform: translate(28vw, -28vw);
+    transform: translate(28vw, -28vw);
     clear: both;
 }
 
