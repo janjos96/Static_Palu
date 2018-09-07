@@ -356,16 +356,12 @@ margin-top: -50px;
   }
 }
 
-.sahara{
-
-
-}
-
 
 
 .container {
   position: relative;
   width: 100%;
+  margin-bottom: 40px;
 }
 
 .image {
@@ -383,8 +379,7 @@ margin-top: -50px;
   position: absolute;
   top: 50%;
   bottom: 0;
-
-
+  width: 90%;
   text-align: center;
 }
 
@@ -399,5 +394,9 @@ margin-top: -50px;
 .text {
   color: black;
   font-size: 24px;
-  padding: 70px 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-family: 'Roboto', sans-serif;
+
 }

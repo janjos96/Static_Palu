@@ -31,20 +31,55 @@
         </div>
       </div>
 
-    <img class="worldimage" src="media/images/palupelomundo/3.png" />
-<h1>Marrocos, <br/> África</h1>
-<img class="worldimage" src="media/images/palupelomundo/6.png" />
-<h1>Pisa, <br />Itália</h1>
+
+      <div class="container">
+          <img class="image" src="media/images/palupelomundo/3.png" />
+        <div class="middle">
+          <div class="text">Marrocos, África</div>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <img class="image" src="media/images/palupelomundo/6.png" />
+        <div class="middle">
+          <div class="text">Pisa, Itália</div>
+        </div>
+      </div>
+
   </div>
   <div class="column">
-    <img class="worldimage" src="media/images/palupelomundo/2.png" />
-  <h1>Rio de Janeiro, <br/> Brasil</h1>
-  <img class="worldimage "  src="media/images/palupelomundo/4.png" />
-<h1>Chichen Itza, <br />México</h1>
-<img class="worldimage" src="media/images/palupelomundo/5.png" />
-<h1>Sevilha, <br />Espanhã</h1>
-<img class="worldimage" src="media/images/palupelomundo/8.png" />
-<h1>Amsterdão, <br />Holanda</h1>
+
+
+    <div class="container">
+    <img class="image" src="media/images/palupelomundo/2.png" />
+      <div class="middle">
+        <div class="text">Rio de Janeiro, Brasil</div>
+      </div>
+    </div>
+
+    <div class="container">
+  <img class="image "  src="media/images/palupelomundo/4.png" />
+      <div class="middle">
+        <div class="text">Chichen Itza, México</div>
+      </div>
+    </div>
+
+    <div class="container">
+  <img class="image" src="media/images/palupelomundo/5.png" />
+      <div class="middle">
+        <div class="text">Sevilha, Espanhã</div>
+      </div>
+    </div>
+
+    <div class="container">
+  <img class="image" src="media/images/palupelomundo/8.png" />
+      <div class="middle">
+        <div class="text">Amsterdão, Holanda</div>
+      </div>
+    </div>
+
+
   </div>
 
 </div>
