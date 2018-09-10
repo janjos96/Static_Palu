@@ -241,13 +241,14 @@ margin-top: -50px;
 .gridcontainer_store{
   display: grid;
   grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto;
   grid-column-start: 3;
   grid-row-start: 2;
   margin-left: 10%;
+  grid-row-gap: 50%;
 }
 
-.imgind{
-  margin-top: 100px;
+.article{
   width: 30vw;
   height: 30vw;
 
@@ -261,7 +262,7 @@ margin-top: -50px;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 2.5vw;
   font-weight: bold;
-  width: 80%;
+  width: 70%;
   -ms-transform: translate(28vw, -28vw); /* IE 9 */
   -webkit-transform: translate(28vw, -28vw);/* Safari */
   transform: translate(28vw, -28vw);
@@ -290,12 +291,17 @@ margin-top: -50px;
   text-align: center;
   -ms-transform: translate(28vw, -28vw); /* IE 9 */
   -webkit-transform: translate(28vw, -28vw);/* Safari */
-  transform: translate(28vw, -28vw);
+  transform: translate(35vw, -28vw);
   margin-right: 15px;
   margin-top: 60px;
   float:left;
   font-weight: bold;
 }
+
+.sizes:hover{
+  background-color: #E3E3E3;
+}
+
 
 
 .addtocart{
@@ -306,12 +312,30 @@ margin-top: -50px;
   cursor: pointer;
   -ms-transform: translate(28vw, -28vw); /* IE 9 */
   -webkit-transform: translate(28vw, -28vw);/* Safari */
-  transform: translate(28vw, -28vw);
+  transform: translate(37vw, -28vw);
   clear: both;
 }
 
 .addtocart:hover{
   text-decoration: underline;
+}
+
+.ind_button{
+  font-family: 'Roboto', sans-serif;
+  width: 150px;
+  height: 50px;
+  border: 0.5px solid black;
+  text-align: center;
+  float:left;
+  font-weight: bold;
+  font-size: 1.5vw;
+  -ms-transform: translate(22vw, -24vw); /* IE 9 */
+  -webkit-transform: translate(22vw, -24vw);/* Safari */
+  transform: translate(22vw, -19vw);
+}
+
+.ind_button:hover{
+  background-color: #E3E3E3;
 }
 
 
