@@ -7,31 +7,33 @@
 
   <?php include 'parts/nav_store.php'; ?>
   <?php include 'parts/login.php'; ?>
-  <?php include 'parts/privacypolicy.php'; ?>
 
   <div class="gridcontainer_store">
 
     <div class="article" data-aos="fade-up" data-aos-duration="1500"  data-aos-once="true">
 
       <div class="article_header">
-        <img class="articleimage" src="media/images/artigo.png"/>
+        <div class="ind_articleimage">
+          <img src="media/images/artigo.png"/>
+        </div>
         <p class="titleind">T-Shirt #1 PALU ORIGINAL</p>
         <p class="priceind">19.99€</p>
         <p class="sizes">S</p>
         <p class="sizes">M</p>
         <p class="sizes">L</p>
         <p class="addtocart">Add to Cart</p>
-      </div>
 
-      <div class="article_seemore">
+
         <button class="ind_button">See More</button>
-      </div>
+
+        </div>
 
     </div>
 
-    <div class="article_details">
+    <div class="article_details" data-aos="fade-up" data-aos-duration="1500"  data-aos-once="true">
+
       <div class="article_header">
-        <img class="articleimage" src="media/images/artigo.png"/>
+        <img class="ind_articleimage" src="media/images/artigo.png"/>
         <p class="titleind">T-Shirt #1 PALU ORIGINAL</p>
         <p class="priceind">19.99€</p>
         <p class="sizes">S</p>
@@ -39,7 +41,9 @@
         <p class="sizes">L</p>
         <p class="addtocart">Add to Cart</p>
       </div>
+
     </div>
+
   </div>
 
 

@@ -6,7 +6,7 @@
 
   .topnavbar{
     width: 100vw;
-    height: 10vh;
+    height: 11vh;
     position: fixed;
     background-color: white;
     z-index: 1000;
@@ -53,6 +53,7 @@
     opacity: 0;
     left:-5vh;
     z-index: 20;
+    width: 300px;
 
   }
 
@@ -70,6 +71,10 @@
     position: fixed;
     bottom: 5vh;
     left: -5vw;
+  }
+
+  .login{
+    z-index: 10000000;
   }
 
   input[type=text] {
@@ -90,22 +95,26 @@
     z-index: 20;
   }
 
-
-
   body{
     display: grid;
     grid-template-columns: 15px auto 15px;
-    grid-template-rows: 20vh auto 1fr;
-
+    grid-template-rows: 14vh auto 1fr;
   }
 
-  .gridcontainer{
+  .gridcontainer {
     display: grid;
     grid-template-columns: auto;
     grid-column-start: 2;
-
+    grid-row-start: 2;
   }
 
+  .gridcontainer_store {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
 
   .img{
     width: 100%;

@@ -8,8 +8,6 @@
   <?php include 'parts/nav_store.php'; ?>
   <?php include 'parts/login.php'; ?>
 
-
-
   <div class="gridcontainer">
 
     <div class="img" data-aos="fade-up"  data-aos-once="true" data-aos-duration="1500">
