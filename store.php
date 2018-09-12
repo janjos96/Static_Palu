@@ -31,7 +31,7 @@
       <a href="store_individual.php">
         <div data-relative-input="true" data-hover-only="true" class="scene">
           <div data-depth="0.15">
-            <img class="articleimage" src="media/images/artigo.png"/>
+            <img class="articleimage" src="media/images/artigos/azul_surfboard/cover.png"/>
           </div>
           <div>
             <p class="title">T-Shirt #1 PALU</p>
