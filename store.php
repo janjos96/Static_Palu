@@ -74,7 +74,6 @@
     </div>
 
 
-
     <div class="img" data-aos="fade-up"  data-aos-once="true" data-aos-duration="1500">
       <a href="store_individual.php">
         <div data-relative-input="true" data-hover-only="true" class="scene">
@@ -88,7 +87,6 @@
         </div>
       </a>
     </div>
-
 
 
   </div>
