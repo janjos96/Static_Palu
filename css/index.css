@@ -194,9 +194,10 @@ input:focus {
 }
 
 .articleimage{
-  width: 24vw;
-margin-left: 10%;
-  margin-right: 10%;
+  width: 22vw;
+      margin-left: 13%;
+      margin-top: 5%;
+      margin-right: 10%;
 }
 
 
