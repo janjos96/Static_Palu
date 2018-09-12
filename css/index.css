@@ -339,6 +339,25 @@ margin-top: -50px;
   background-color: #E3E3E3;
 }
 
+.logoimg{
+  margin-bottom: 10%;
+}
+
+.description_title{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5vw;
+  font-weight: bold;
+  border-bottom: solid 2px #000;
+  width: 20%;
+  margin-bottom: 20px;
+}
+
+.description_text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1vw;
+  font-weight: 100;
+  width: 40%;
+}
 
 /*---------------------------------*/
 
