@@ -245,6 +245,10 @@ margin-top: -50px;
   grid-row-start: 2;
 }
 
+.article {
+  margin-bottom: -15%;
+}
+
 .ind_articleimage{
   width: 25vw;
   margin-left: 8%;
