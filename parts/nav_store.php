@@ -42,18 +42,18 @@ print '
 <div class="menu">
   <nav>
     <ul>
-      <li><a href="store.php">STORE</a>
+      <li><a href="store.php">LOJA</a>
         <ul id="submenu">
-          <li><a>general</a></li>
+          <li><a>geral</a></li>
           <li><a>t-shirts</a></li>
           <li><a>sweats</a></li>
           <li><a>snapbacks</a></li>
-          <li><a>acessories</a></li>
+          <li><a>acessórios</a></li>
         </ul>
       </li>
-      <li><a href="about.php">ABOUT</a></li>
+      <li><a href="about.php">SOBRE</a></li>
       <li><a href="palupelomundo.php">#PALUPELOMUNDO</a></li>
-      <li><a href="contacts.php">CONTACTS</a></li>
+      <li><a href="contacts.php">CONTACTOS</a></li>
       <li><a href="https://www.facebook.com/PaluOriginalPT/" target="_blank">FACEBOOK</a></li>
       <li><a href="https://www.instagram.com/palu_original/">INSTAGRAM</a></li>
     </ul>
@@ -69,8 +69,8 @@ print '
 
 <div class="conditions_small">
   <ul>
-    <li><a>Terms & Conditions</a></li>
-    <li><a>Privacy Policy</a></li>
+    <li><a>Termos & Condições</a></li>
+    <li><a>Política de Privacidade</a></li>
   </ul>
 </div>
 ';
