@@ -344,6 +344,12 @@ margin-top: -50px;
   margin-bottom: 10%;
 }
 
+.description1 {
+  position: fixed;
+  z-index: 1000000;
+  top: 35vw;
+}
+
 .description_title{
   font-family: 'Roboto', sans-serif;
   font-size: 1.5vw;
@@ -359,6 +365,17 @@ margin-top: -50px;
   font-weight: 100;
   width: 40%;
 }
+
+.frontimg {
+  width: 100%;
+  text-align: right;
+}
+
+#frontimg {
+  width: 40% !important;
+}
+
+
 
 /*---------------------------------*/
 
