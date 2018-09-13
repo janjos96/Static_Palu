@@ -7,6 +7,9 @@
 
   <?php include 'parts/nav_store.php'; ?>
   <?php include 'parts/login.php'; ?>
+  <div class="sex">
+    <p><a>todos</a> / <a>homem</a> / <a>mulher</a></p>
+  </div>
 
   <div class="gridcontainer">
 

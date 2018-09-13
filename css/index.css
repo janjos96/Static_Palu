@@ -149,6 +149,13 @@ input:focus {
   width: 3%;
 }
 
+.sex{
+  grid-column-start: 3;
+  grid-row-start: 2;
+  font-family: 'Roboto', sans-serif;
+      margin-left: 15px;
+}
+
 
 .gridcontainer{
   display: grid;
@@ -156,6 +163,7 @@ input:focus {
   grid-row-gap: 80px;
   grid-column-start: 3;
   grid-row-start: 2;
+  margin-top: 50px;
 }
 
 
