@@ -92,7 +92,7 @@ $(elements[i]).css("margin-left" , rand);
 
 }*/
 
-$('.ind_button').on('click', function(event) {
+$('.arrowbutton').on('click', function(event) {
 
   $('html, body').animate({
     scrollTop: $(".article_details").offset().top

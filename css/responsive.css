@@ -127,6 +127,12 @@
     margin-right: 10%;
   }
 
+  .sex {
+    grid-column-start: 2;
+
+
+}
+
 
   .title{
     font-size: 5.1vw;
