@@ -345,9 +345,9 @@ margin-top: -50px;
 }
 
 .description1 {
-  position: fixed;
-  z-index: 1000000;
-  top: 35vw;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
 }
 
 .description_title{
@@ -372,9 +372,12 @@ margin-top: -50px;
 }
 
 #frontimg {
-  width: 40% !important;
+  width: 35% !important;
 }
 
+.details1 {
+  width: 80%;
+}
 
 
 /*---------------------------------*/

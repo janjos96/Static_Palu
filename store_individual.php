@@ -38,9 +38,15 @@
         <p class="description_title">Descrição</p>
         <p class="description_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur lorem vestibulum risus posuere pretium. Quisque sed mattis nisl. Mauris nec molestie ipsum, ac molestie erat. Donec dapibus velit eget nisi blandit dictum. Suspendisse at placerat sapien. Fusce gravida massa vitae nisl accumsan, eget sodales sem tempus. Vestibulum a faucibus mi.</p>
       </div>
+
       <div class="frontimg">
         <img id="frontimg" src="media/images/artigos/azul_surfboard/front.png"/>
       </div>
+
+      <div class="details1">
+        <img id="details1" src="media/images/artigos/azul_surfboard/detail1.png"/>
+      </div>
+
   </div>
 
 

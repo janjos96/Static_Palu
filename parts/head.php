@@ -28,6 +28,7 @@ print '<head>
       <script src="js/jquery-3.2.1.min.js"></script>
       <script src="js/mainscript.js"></script>
       <script src="js/jquery.easing.1.3.js"></script>
+      <script src="js/jquery-scrolltofixed.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
   <!--   <script src="js/backgroundImage.js"></script>-->
 

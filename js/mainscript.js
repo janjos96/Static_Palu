@@ -100,9 +100,20 @@ $('.ind_button').on('click', function(event) {
 
 });
 
+function vwTOpx(value) {
+    var w = window,
+      d = document,
+      e = d.documentElement,
+      g = d.getElementsByTagName('body')[0],
+      x = w.innerWidth || e.clientWidth || g.clientWidth,
+      y = w.innerHeight|| e.clientHeight|| g.clientHeight;
 
+    var result = (x*value)/100;
+    return result;
+}
 
-
-
+/*$(document).ready(function() {
+  $('.description1').scrollToFixed( { marginTop: 400, marginLeft: 0 } );
+});*/
 
 });
